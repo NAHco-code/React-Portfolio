@@ -4,8 +4,8 @@ import PreviewCard from '../components/PreviewCard';
 export default function Home () {
     return (
         <div>
-            <h1>Home Page</h1>
             <Header />
+            <div className=''>SOME OF MY LATEST WORK</div>
             <div>
                 <ul>
                     <PreviewCard />
