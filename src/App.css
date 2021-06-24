@@ -7,9 +7,24 @@
   height: 200px;
 }
 .header-img-mirror {
-    background-image: url(./images/header-img-mirror.JPG);
+  background-image: url(./images/header-img-mirror.JPG);
   background-size: cover;
   height: 100px;
+}
+.fade-to-about {
+  background-image: url(./images/black-white-fade-WHITE.PNG);
+  background-size: cover;
+  height: 200px;
+}
+.fade-to-portfolio {
+  background-image: url(./images/white-black-fade.PNG);
+  background-size: cover;
+  height: 200px;
+}
+.fade-to-contact {
+  background-image: url(./images/black-white-fade-WHITE.PNG);
+  background-size: cover;
+  height: 200px;
 }
 .footer-img {
   /* position: relative;

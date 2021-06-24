@@ -15,13 +15,13 @@ function App() {
       <div className='header-img-mirror' alt=''></div>
 
       <Home />
-      <div className='' alt='' src='./images/cloud-fade-white.JPG'></div>
+      <div className='fade-to-about' alt=''></div>
 
       <About />
-      <div className='' alt='' src='./images/cloud-fade-white.JPG'></div>
+      <div className='fade-to-portfolio' alt=''></div>
 
       <Portfolio />
-      <div className='' alt='' src='./images/cloud-fade-white.JPG'></div>
+      <div className='fade-to-contact' alt=''></div>
 
       <Contact />
       <div className='footer-img' alt=''></div>
