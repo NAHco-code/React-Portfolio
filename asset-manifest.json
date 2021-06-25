@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.6cc86b99.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.d3a99ca8.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.d3a99ca8.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.289c883b.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.289c883b.js.map",
+    "static/js/2.134aaf33.chunk.js": "/portfolio-react/static/js/2.134aaf33.chunk.js",
+    "static/js/2.134aaf33.chunk.js.map": "/portfolio-react/static/js/2.134aaf33.chunk.js.map",
+    "static/js/3.edde4ffe.chunk.js": "/portfolio-react/static/js/3.edde4ffe.chunk.js",
+    "static/js/3.edde4ffe.chunk.js.map": "/portfolio-react/static/js/3.edde4ffe.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/main.6cc86b99.chunk.css.map": "/portfolio-react/static/css/main.6cc86b99.chunk.css.map",
+    "static/js/2.134aaf33.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.134aaf33.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio-react/static/media/cloud-fade-white.9824eb6c.JPG",
+    "static/media/App.css": "/portfolio-react/static/media/white-black-fade.71d3a173.PNG",
+    "static/media/background-img.css": "/portfolio-react/static/media/weatherDash.dfec2e87.png",
+    "static/media/github-purple.a855c397.png": "/portfolio-react/static/media/github-purple.a855c397.png",
+    "static/media/github-white-blk-outline.6e1c262b.PNG": "/portfolio-react/static/media/github-white-blk-outline.6e1c262b.PNG",
+    "static/media/header-img-mirror.792814db.JPG": "/portfolio-react/static/media/header-img-mirror.792814db.JPG",
+    "static/media/insta-white.6320180a.PNG": "/portfolio-react/static/media/insta-white.6320180a.PNG",
+    "static/media/instagram-line.6030a881.png": "/portfolio-react/static/media/instagram-line.6030a881.png",
+    "static/media/linkedin-gradient-break.09e25577.png": "/portfolio-react/static/media/linkedin-gradient-break.09e25577.png",
+    "static/media/linkedin-white.42fb216a.PNG": "/portfolio-react/static/media/linkedin-white.42fb216a.PNG",
+    "static/media/portfolio-hero-fade.02edd995.JPG": "/portfolio-react/static/media/portfolio-hero-fade.02edd995.JPG",
+    "static/media/right-arrow-round.e18a18b7.png": "/portfolio-react/static/media/right-arrow-round.e18a18b7.png",
+    "static/media/twitter-color.89498832.png": "/portfolio-react/static/media/twitter-color.89498832.png",
+    "static/media/twitter-white.28ddbd9f.PNG": "/portfolio-react/static/media/twitter-white.28ddbd9f.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.289c883b.js",
+    "static/js/2.134aaf33.chunk.js",
+    "static/css/main.6cc86b99.chunk.css",
+    "static/js/main.d3a99ca8.chunk.js"
+  ]
+}
