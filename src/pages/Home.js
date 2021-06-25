@@ -28,9 +28,9 @@ export default function Home () {
                                 <a href='https://github.com/NAHco-code/Project-02.git' target='_blank' rel='noreferrer'><div title='View Code' className="screen thumbnail-title"><span>THE LOO REVIEW</span></div></a>
                                 <a href='https://the-loo-review.herokuapp.com/' target='_blank' rel='noreferrer'><img alt='' title='View Live' className="feat-app thumbnail" src={reviewPreview}/></a>
                     </div>
-                    <img alt='' className='fade' src={fade}></img>
                 </div>
             </div>
+            <img alt='' className='fade' src={fade}></img>
         </div>
     );
 }
