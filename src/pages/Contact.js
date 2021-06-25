@@ -9,13 +9,19 @@ import ContactLinks from '../components/ContactLinks';
 export default function Contact () {
     return (
         <div>
-            <h1 className='page-header'>contact.</h1>
-            <p className='sub-header'>How would you know the difference between the dream world and real world?</p>
-
-            <ContactLinks />
-            <ContactVector />
-            <ContactForm />
-            <Footer />
+            <div class="contact-page padding" id='contact-page'>
+                <div class="row position">
+                    <h2>contact.</h2>
+                    <h3>How would you know the difference between the dream world and real world?</h3>
+                    <ContactLinks />
+                    <ContactVector />
+                    <h3>Send me an email</h3>
+                </div>
+                <div className="row">
+                    <ContactForm />
+                </div>
+                <Footer />
+            </div>
         </div>
     );
 }

@@ -3,7 +3,7 @@ import './index.css';
 
 export default function ContactForm () {
     return (
-        <div className="row">
+        <div>
             <label>Name
                 <input type="text" placeholder=""/>
             </label>

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 // import './index.css';
 
 
@@ -12,14 +12,14 @@ import React from 'react';
 
 
 
-export default function PageHeader () {
-/* About Page header */
-    return (
-        <div>
-            <h1 className='page-header'>contact.</h1>
-            <p>How would you know the difference between the dream world and real world?</p>
-        </div>
-    );
-}
+// export default function PageHeader () {
+// /* About Page header */
+//     return (
+//         <div>
+//             <h1 className='page-header'>contact.</h1>
+//             <p>How would you know the difference between the dream world and real world?</p>
+//         </div>
+//     );
+// }
 
 //loop through pages and return each header

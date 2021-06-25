@@ -9,7 +9,6 @@ export default function ContactLinks () {
     return (
         <div>
             <ul className="menu follow-menu row small-up-2 medium-up-2 large-up-2 ">
-
                 <li className='column'>
                     <a href="https://www.instagram.com/okwonderkat/" target='_blank' rel='noreferrer'>
                         <img className='follow-icon' alt='' src={instagram}/>
@@ -25,11 +24,11 @@ export default function ContactLinks () {
                         <img className='follow-icon' alt='' src={linkedin}/>
                     </a>
                 </li>
-                    <li className='column'>
-                        <a href='https://github.com/NAHco-code/' target='_blank' rel='noreferrer'>
-                        <img className='follow-icon' alt='' src={github}/>
-                        </a>
-                    </li>
+                <li className='column'>
+                    <a href='https://github.com/NAHco-code/' target='_blank' rel='noreferrer'>
+                    <img className='follow-icon' alt='' src={github}/>
+                    </a>
+                </li>
             </ul>
         </div>
     );
