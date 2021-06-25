@@ -16,7 +16,7 @@ export default function Home () {
                         <h4 className="row preview-sec-title"> SOME OF MY LATEST WORK</h4>
                         <div className="line"></div>
                     </div>
-                    <div className="row small-up-2 medium-up-3 large-up-4 padding outline">
+                    <div className="row small-up-2 medium-up-3 large-up-4 padding outline react-spacing">
                         <div className="column preview-container">
                             <a href='https://github.com/mkotte/COVIDwoke.git' target='_blank' rel='noreferrer'><div title='View Code' className="screen thumbnail-title"><span>COVID WOKE</span></div></a>
                             <a href='https://mkotte.github.io/COVIDwoke/' target='_blank' rel='noreferrer'><img alt='' title='View Live' className="feat-app thumbnail" src={covidPreview}/></a>

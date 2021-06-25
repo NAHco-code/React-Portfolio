@@ -37,6 +37,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.react-spacing {
+  position: relative;
+  top: 35px;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
