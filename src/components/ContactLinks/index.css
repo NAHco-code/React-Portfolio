@@ -1,0 +1,16 @@
+
+.follow-menu {
+  display: flex;
+  width: 48%;
+  position: absolute;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+.follow-icon {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin: 30px 25px;
+  flex-grow: 3;
+  /* padding: 10px 3px; */
+}
