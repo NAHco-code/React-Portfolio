@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.a7b7fa47.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.6b9b9d5c.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.6b9b9d5c.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.d65efd12.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.d65efd12.js.map",
+    "main.css": "/portfolio-react/static/css/main.9d862084.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.5f32516b.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.5f32516b.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.355a374e.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.355a374e.js.map",
     "static/js/2.134aaf33.chunk.js": "/portfolio-react/static/js/2.134aaf33.chunk.js",
     "static/js/2.134aaf33.chunk.js.map": "/portfolio-react/static/js/2.134aaf33.chunk.js.map",
-    "static/js/3.fd46e299.chunk.js": "/portfolio-react/static/js/3.fd46e299.chunk.js",
-    "static/js/3.fd46e299.chunk.js.map": "/portfolio-react/static/js/3.fd46e299.chunk.js.map",
+    "static/js/3.aa86751b.chunk.js": "/portfolio-react/static/js/3.aa86751b.chunk.js",
+    "static/js/3.aa86751b.chunk.js.map": "/portfolio-react/static/js/3.aa86751b.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "static/css/main.a7b7fa47.chunk.css.map": "/portfolio-react/static/css/main.a7b7fa47.chunk.css.map",
+    "static/css/main.9d862084.chunk.css.map": "/portfolio-react/static/css/main.9d862084.chunk.css.map",
     "static/js/2.134aaf33.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.134aaf33.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/portfolio-react/static/media/portfolio-hero-fade.02edd995.JPG",
+    "static/media/baby-vector.713be643.jpg": "/portfolio-react/static/media/baby-vector.713be643.jpg",
     "static/media/black-white-fade-WHITE.3d8d102b.PNG": "/portfolio-react/static/media/black-white-fade-WHITE.3d8d102b.PNG",
+    "static/media/index.css": "/portfolio-react/static/media/portfolio-hero-fade.02edd995.JPG",
     "static/media/content-img-women-family.803cb2e8.jpg": "/portfolio-react/static/media/content-img-women-family.803cb2e8.jpg",
     "static/media/background-img.css": "/portfolio-react/static/media/weatherDash.dfec2e87.png",
     "static/media/d-n-me-vector.e8b9a294.jpg": "/portfolio-react/static/media/d-n-me-vector.e8b9a294.jpg",
@@ -34,9 +35,9 @@
     "static/media/white-black-fade.71d3a173.PNG": "/portfolio-react/static/media/white-black-fade.71d3a173.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.d65efd12.js",
+    "static/js/runtime-main.355a374e.js",
     "static/js/2.134aaf33.chunk.js",
-    "static/css/main.a7b7fa47.chunk.css",
-    "static/js/main.6b9b9d5c.chunk.js"
+    "static/css/main.9d862084.chunk.css",
+    "static/js/main.5f32516b.chunk.js"
   ]
 }
