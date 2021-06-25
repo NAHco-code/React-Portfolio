@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.3fb1a19b.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.8fb2dcec.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.8fb2dcec.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.b5b04564.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.b5b04564.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.031bf473.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.031bf473.js.map",
     "static/js/2.de004599.chunk.js": "/portfolio-react/static/js/2.de004599.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/header-img-mirror.792814db.JPG": "/portfolio-react/static/media/header-img-mirror.792814db.JPG",
     "static/media/insta-white.6320180a.PNG": "/portfolio-react/static/media/insta-white.6320180a.PNG",
     "static/media/instagram-line.6030a881.png": "/portfolio-react/static/media/instagram-line.6030a881.png",
+    "static/media/kw-resume-pdf.f3dc2d4c.pdf": "/portfolio-react/static/media/kw-resume-pdf.f3dc2d4c.pdf",
     "static/media/linkedin-gradient-break.09e25577.png": "/portfolio-react/static/media/linkedin-gradient-break.09e25577.png",
     "static/media/linkedin-white.42fb216a.PNG": "/portfolio-react/static/media/linkedin-white.42fb216a.PNG",
     "static/media/portfolio-art-devour.e678f00f.jpg": "/portfolio-react/static/media/portfolio-art-devour.e678f00f.jpg",
@@ -38,6 +39,6 @@
     "static/js/runtime-main.031bf473.js",
     "static/js/2.de004599.chunk.js",
     "static/css/main.3fb1a19b.chunk.css",
-    "static/js/main.8fb2dcec.chunk.js"
+    "static/js/main.b5b04564.chunk.js"
   ]
 }
