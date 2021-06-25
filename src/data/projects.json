@@ -1,0 +1,38 @@
+[
+    {
+    "gitURL": "https://github.com/mkotte/COVIDwoke.git",
+    "liveURL": "https://mkotte.github.io/COVIDwoke/",
+    "title": "COVID WOKE",
+    "id": "covid"
+    },
+    {
+    "gitURL": "https://github.com/NAHco-code/Employee-Directory.git",
+    "liveURL": "https://nahco-code.github.io/Employee-Directory/",
+    "title": "EMPLOYEE DIRECTORY",
+    "id": "directory"
+    },
+    {
+    "gitURL": "https://github.com/mkotte/COVIDwoke.git",
+    "liveURL": "https://mkotte.github.io/COVIDwoke/",
+    "title": "THE LOO REVIEW",
+    "id": "review"
+    },
+    {
+    "gitURL": "https://github.com/mkotte/COVIDwoke.git",
+    "liveURL": "https://mkotte.github.io/COVIDwoke/",
+    "title": "FITNESS TRACKER",
+    "id": "fitness"
+    },
+    {
+    "gitURL": "https://github.com/mkotte/COVIDwoke.git",
+    "liveURL": "https://mkotte.github.io/COVIDwoke/",
+    "title": "JS QUIZ",
+    "id": "quiz"
+    },
+    {
+    "gitURL": "https://github.com/mkotte/COVIDwoke.git",
+    "liveURL": "https://mkotte.github.io/COVIDwoke/",
+    "title": "WEATHER DASHBOARD",
+    "id": "weather"
+    }
+]
