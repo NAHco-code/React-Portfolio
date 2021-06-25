@@ -6,6 +6,7 @@ import instaIcon from '../../images/insta-white.PNG';
 import githubIcon from '../../images/github-white-blk-outline.PNG';
 import linkedinIcon from '../../images/linkedin-white.PNG';
 import twitterIcon from '../../images/twitter-white.PNG';
+import resume from '../resume/kw-resume-pdf.pdf';
 
 export default function Nav () {
     return (
@@ -19,7 +20,7 @@ export default function Nav () {
                 <div className="title-bar-center nav-sec nav-2">
                     <a href='/react-portfolio/#/about' className="nav-links">about</a>
                     <a href='/react-portfolio/#/portfolio' className="nav-links">portfolio</a>
-                    <a href='../resume/kw-resume-pdf.pdf' download className="nav-links">resume</a>
+                    <a href={resume} download className="nav-links">resume</a>
                     <a href='/react-portfolio/#/contact' className="nav-links">contact</a>
                 </div>
                 <div className="title-bar-right nav-sec nav-3">
