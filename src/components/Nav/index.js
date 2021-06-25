@@ -19,7 +19,7 @@ export default function Nav () {
                 <div className="title-bar-center nav-sec nav-2">
                     <a href='#about-page' className="nav-links">about</a>
                     <a href='#portfolio-page' className="nav-links">portfolio</a>
-                    <a href='./assets/resume/kw-resume-pdf.pdf' download className="nav-links">resume</a>
+                    <a href='../resume/kw-resume-pdf.pdf' download className="nav-links">resume</a>
                     <a href='#contact-page' className="nav-links">contact</a>
                 </div>
                 <div className="title-bar-right nav-sec nav-3">
@@ -39,5 +39,6 @@ export default function Nav () {
                 </div>
             </div>
         </div>
+
     )
 }

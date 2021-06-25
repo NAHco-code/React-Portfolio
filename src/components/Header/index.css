@@ -1,7 +1,9 @@
 .header-img {
-  /* background-image: url(./images/portfolio-hero-fade.JPG);
-  background-size: cover; */
-  width: 100vw;
+  background-image: url(../../images/portfolio-hero-fade.JPG);
+  background-size: cover;
+  height: 50vw;
+  margin-bottom: 0;
+  margin-top: 64px;
 }
 .header-img-mirror {
   /* background-image: url(./images/header-img-mirror.JPG);

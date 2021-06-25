@@ -1,5 +1,9 @@
-.sticky {
-
+.home-icon {
+  height: 50px;
+  width: 50px;
+  /* z-index: 20; */
+  margin: 0 1.5% 0 1.5%;
+  transition: .5s; /* not working */
 }
 .nav {
   height: 65px;
