@@ -13,6 +13,7 @@ import React from 'react';
 
 
 export default function PageHeader () {
+/* About Page header */
     return (
         <div>
             <h1 className='page-header'>contact.</h1>
