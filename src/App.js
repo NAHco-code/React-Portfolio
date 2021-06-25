@@ -1,6 +1,7 @@
 import './App.css';
+import './background-img.css';
 import React from 'react';
-// import { Switch, Route } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -9,24 +10,44 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="App">
+
+    <Router
+      basename='/'
+    >
+      <div className='App'>
       <Nav />
-      <div className='header-img' alt=''></div>
-      <div className='header-img-mirror' alt=''></div>
-
       <Home />
-      <div className='fade-to-about' alt=''></div>
-
       <About />
-      <div className='fade-to-portfolio' alt=''></div>
-
       <Portfolio />
-      <div className='fade-to-contact' alt=''></div>
-
       <Contact />
-      <div className='footer-img' alt=''></div>
-    </div>
+      </div>
+    </Router>
   );
 }
 
 export default App;
+
+
+{/*
+
+  <Router
+  basename='/'
+  >
+
+  <Switch>
+    <Route path='/' component={Home} />
+    <Route path='/about' component={About} />
+    <Route path='/portfolio' component={Portfolio} />
+    <Route path='/contact' component={Contact} />
+  </Switch>
+
+</Router>*/}
+
+
+
+
+// <div className='header-img' alt=''></div>
+// <div className='header-img-mirror' alt=''></div>;
+//<div className='fade-to-about' alt=''></div>
+//<div className='fade-to-portfolio' alt=''></div>
+//<div className='fade-to-contact' alt=''></div>

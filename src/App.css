@@ -1,16 +1,16 @@
-.App {
+/* .App {
   text-align: center;
+} */
+.black-background {
+  background-color: black;
+  /* z-index: -1; */
+  color: white;
 }
-.header-img {
-  background-image: url(./images/portfolio-hero-fade.JPG);
-  background-size: cover;
-  height: 200px;
-}
-.header-img-mirror {
-  background-image: url(./images/header-img-mirror.JPG);
-  background-size: cover;
-  height: 100px;
-}
+
+
+
+
+
 .fade-to-about {
   background-image: url(./images/black-white-fade-WHITE.PNG);
   background-size: cover;
@@ -32,4 +32,8 @@
   background-image: url(./images/cloud-fade-white.JPG);
   background-size: cover;
   height: 200px;
+}
+
+.page-header {
+  text-align: justify;
 }
