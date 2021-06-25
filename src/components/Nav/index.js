@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import homeIcon from '../../images/right-arrow-round.png';
 import instaIcon from '../../images/insta-white.PNG';
 import githubIcon from '../../images/github-white-blk-outline.PNG';
@@ -12,15 +12,15 @@ export default function Nav () {
         <div className="sticky">
             <div className="title-bar nav">
                 <div className="title-bar-left nav-sec nav-1">
-                    <Link to='/home'>
+                    <a href='/react-portfolio/#/home'>
                         <img alt='' src={homeIcon} className='home-icon'/>
-                    </Link>
+                    </a>
                 </div>
                 <div className="title-bar-center nav-sec nav-2">
-                    <a href='#about-page' className="nav-links">about</a>
-                    <a href='#portfolio-page' className="nav-links">portfolio</a>
+                    <a href='/react-portfolio/#/about' className="nav-links">about</a>
+                    <a href='/react-portfolio/#/portfolio' className="nav-links">portfolio</a>
                     <a href='../resume/kw-resume-pdf.pdf' download className="nav-links">resume</a>
-                    <a href='#contact-page' className="nav-links">contact</a>
+                    <a href='/react-portfolio/#/contact' className="nav-links">contact</a>
                 </div>
                 <div className="title-bar-right nav-sec nav-3">
 
