@@ -8,6 +8,7 @@ body {
 .body-background {
   background-color: black !important;
 }
+
 .sticky {
   /* position: -webkit-sticky; */
   position: fixed;
@@ -15,6 +16,8 @@ body {
   z-index: 1;
   width: 100vw;
 }
+
+/* HOME PAGE */
 .home-page {
   color: white;
 }
@@ -163,89 +166,31 @@ h5 {
   top: -42px;
   width: 110vw;
 }
+
 /* PORTFOLIO PAGE */
 .portfolio-page {
   color: white;
 }
+.padding {
+  padding: 0 10px 0 10px;
+  margin: auto;
+  border: none;
+  box-shadow: none;
+}
 .portfolio-sec {
   position: static;
 }
-.long-disp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-}
 
-.port-screen {
-  background-color: rgba(22, 22, 22, 0.692);
-  background-position: contain;
+/* CONTACT PAGE */
+.contact-page {
   color: black;
-  display: flex;
-  justify-content: space-around;
-  height: 148px;
-  width: 89.45%;
-  position: absolute;
-  top: 0;
-  left: 5.3%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-.port-screen::before,
-.port-screen2::before {
-  transition: .5s;
-  transform: scale(.9);
-  background: #ffe2e7;
-}
-.port-screen:hover::before,
-.port-screen2:hover::before {
-  transform: scale(1.2);
-  box-shadow: 0 2 15px #ffe2e7;
-}
-.port-screen:hover,
-.port-screen2:hover {
-  /* color: #00eeff; */
-  box-shadow: 0 0 10px #ffe2e7;
-  text-shadow: 0 0 10px #ffe2e7;
-}
-.port-screen2 {
-  background-color: rgba(22, 22, 22, 0.692);
-  background-position: contain;
-  color: black;
-  display: flex;
-  justify-content: space-around;
-  height: 148px;
-  width: 89.45%;
-  position: absolute;
-  left: 5.3%;
-  bottom: 30px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-h5 {
-  color: black;
-  background-color: rgba(216, 205, 205, 0.89);
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-shrink: 3;
-  width: 100%;
-  font-size: 1.45em;
-  word-wrap: break-word;
-  font-family: 'Big Shoulders Stencil Text', cursive;
+  background-color: white;
   position: relative;
+  top: -3px;
 }
-.first-feat {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  height: 150px;
-  width: 100%;
+.position {
+  position: static;
 }
-.sec-feat {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  margin-bottom: 30px;
-  height: 150px;
-  width: 100%;
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
