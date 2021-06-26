@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-        <Router basename='/portfolio-react'>
+        <Router basename='portfolio-react'>
           <Switch>
             <Route exact path="/">
               <Home />
