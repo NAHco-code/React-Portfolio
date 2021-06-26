@@ -19,7 +19,6 @@ export default function Contact () {
                 <div className="row">
                     <ContactForm />
                 </div>
-                <Footer />
             </div>
         </div>
     );
