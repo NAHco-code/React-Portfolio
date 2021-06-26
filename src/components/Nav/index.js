@@ -13,15 +13,15 @@ export default function Nav () {
         <div className="sticky">
             <div className="title-bar nav">
                 <div className="title-bar-left nav-sec nav-1">
-                    <a href='/react-portfolio/#/home'>
+                    <a href='/portfolio-react/#/home'>
                         <img alt='' src={homeIcon} className='home-icon'/>
                     </a>
                 </div>
                 <div className="title-bar-center nav-sec nav-2">
-                    <a href='/react-portfolio/#/about' className="nav-links">about</a>
-                    <a href='/react-portfolio/#/portfolio' className="nav-links">portfolio</a>
+                    <a href='/portfolio-react/#/about' className="nav-links">about</a>
+                    <a href='/portfolio-react/#/portfolio' className="nav-links">portfolio</a>
                     <a href={resume} download className="nav-links">resume</a>
-                    <a href='/react-portfolio/#/contact' className="nav-links">contact</a>
+                    <a href='/portfolio-react/#/contact' className="nav-links">contact</a>
                 </div>
                 <div className="title-bar-right nav-sec nav-3">
 
