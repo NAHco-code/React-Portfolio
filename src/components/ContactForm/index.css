@@ -1,3 +1,6 @@
+.email-message {
+  height: 100px;
+}
 .button-send-email {
   border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
