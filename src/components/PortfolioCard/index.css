@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
+  height: 400px;
 }
 .port-screen {
   background-color: rgba(22, 22, 22, 0.692);
@@ -14,11 +15,11 @@
   color: black;
   display: flex;
   justify-content: space-around;
-  height: 148px;
-  width: 89.45%;
+  height: 175px;
+  width: 87.60%;
   position: absolute;
-  top: 0;
-  left: 5.3%;
+  top: -6px;
+  left: 15px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -45,11 +46,11 @@
   color: black;
   display: flex;
   justify-content: space-around;
-  height: 148px;
-  width: 89.45%;
+  height: 175px;
+  width: 87.60%;
   position: absolute;
-  left: 5.3%;
-  bottom: 30px;
+  left: 15px;
+  bottom: 24px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -70,13 +71,13 @@ h5 {
 .first-feat {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  height: 150px;
+  height: 175px;
   width: 100%;
 }
 .sec-feat {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-bottom: 30px;
-  height: 150px;
+  height: 175px;
   width: 100%;
 }
