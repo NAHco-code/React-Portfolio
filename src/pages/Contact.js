@@ -1,6 +1,5 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
-import Footer from '../components/Footer';
 import ContactLinks from '../components/ContactLinks';
 import ContactVector from '../images/baby-vector.jpg'
 
