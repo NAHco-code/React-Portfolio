@@ -1,4 +1,4 @@
-# React Portfolio
+# Professional Portfolio with React
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 
