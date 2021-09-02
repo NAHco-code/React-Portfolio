@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.2a741598.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.1fbbdfe8.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.1fbbdfe8.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.031bf473.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.031bf473.js.map",
-    "static/js/2.de004599.chunk.js": "/portfolio-react/static/js/2.de004599.chunk.js",
-    "static/js/2.de004599.chunk.js.map": "/portfolio-react/static/js/2.de004599.chunk.js.map",
-    "static/js/3.06c96791.chunk.js": "/portfolio-react/static/js/3.06c96791.chunk.js",
-    "static/js/3.06c96791.chunk.js.map": "/portfolio-react/static/js/3.06c96791.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.bc0846d9.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.bc0846d9.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.9ecca8a4.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.9ecca8a4.js.map",
+    "static/js/2.fbcfe874.chunk.js": "/portfolio-react/static/js/2.fbcfe874.chunk.js",
+    "static/js/2.fbcfe874.chunk.js.map": "/portfolio-react/static/js/2.fbcfe874.chunk.js.map",
+    "static/js/3.85e56e4d.chunk.js": "/portfolio-react/static/js/3.85e56e4d.chunk.js",
+    "static/js/3.85e56e4d.chunk.js.map": "/portfolio-react/static/js/3.85e56e4d.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/main.2a741598.chunk.css.map": "/portfolio-react/static/css/main.2a741598.chunk.css.map",
-    "static/js/2.de004599.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.de004599.chunk.js.LICENSE.txt",
+    "static/js/2.fbcfe874.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.fbcfe874.chunk.js.LICENSE.txt",
     "static/media/baby-vector.713be643.jpg": "/portfolio-react/static/media/baby-vector.713be643.jpg",
     "static/media/black-white-fade-WHITE.3d8d102b.PNG": "/portfolio-react/static/media/black-white-fade-WHITE.3d8d102b.PNG",
     "static/media/index.css": "/portfolio-react/static/media/portfolio-hero-fade.02edd995.JPG",
@@ -23,7 +23,7 @@
     "static/media/header-img-mirror.792814db.JPG": "/portfolio-react/static/media/header-img-mirror.792814db.JPG",
     "static/media/insta-white.6320180a.PNG": "/portfolio-react/static/media/insta-white.6320180a.PNG",
     "static/media/instagram-line.6030a881.png": "/portfolio-react/static/media/instagram-line.6030a881.png",
-    "static/media/kw-resume-pdf.f3dc2d4c.pdf": "/portfolio-react/static/media/kw-resume-pdf.f3dc2d4c.pdf",
+    "static/media/kathryn-wilkinson.94449863.pdf": "/portfolio-react/static/media/kathryn-wilkinson.94449863.pdf",
     "static/media/linkedin-gradient-break.09e25577.png": "/portfolio-react/static/media/linkedin-gradient-break.09e25577.png",
     "static/media/linkedin-white.42fb216a.PNG": "/portfolio-react/static/media/linkedin-white.42fb216a.PNG",
     "static/media/portfolio-art-devour.e678f00f.jpg": "/portfolio-react/static/media/portfolio-art-devour.e678f00f.jpg",
@@ -36,9 +36,9 @@
     "static/media/white-black-fade.71d3a173.PNG": "/portfolio-react/static/media/white-black-fade.71d3a173.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.031bf473.js",
-    "static/js/2.de004599.chunk.js",
+    "static/js/runtime-main.9ecca8a4.js",
+    "static/js/2.fbcfe874.chunk.js",
     "static/css/main.2a741598.chunk.css",
-    "static/js/main.1fbbdfe8.chunk.js"
+    "static/js/main.bc0846d9.chunk.js"
   ]
 }
