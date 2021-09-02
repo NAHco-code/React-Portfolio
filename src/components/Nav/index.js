@@ -6,7 +6,7 @@ import instaIcon from '../../images/insta-white.PNG';
 import githubIcon from '../../images/github-white-blk-outline.PNG';
 import linkedinIcon from '../../images/linkedin-white.PNG';
 import twitterIcon from '../../images/twitter-white.PNG';
-import resume from '../resume/kw-resume-pdf.pdf';
+import resume from '../resume/kathryn-wilkinson.pdf';
 
 export default function Nav () {
     return (
