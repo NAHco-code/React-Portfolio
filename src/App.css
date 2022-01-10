@@ -1,193 +1,195 @@
 /* GLOBAL */
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 body {
-  width: 100%;
+   width: 100vw;
+   margin: 0;
 }
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
-  font-weight: 700;
-  letter-spacing: -0.06em;
-  padding-top: 100px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 5em;
+   font-weight: 700;
+   letter-spacing: -0.06em;
+   padding-top: 10em;
 }
 h3 {
-  font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat', sans-serif;
 }
 h5 {
-  margin: auto;
-  width: 100%;
-  padding: 0 0 1em 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+   margin: auto;
+   width: 100vw;
+   padding: 0 0 1em 0;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1em;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 span {
-  color: black;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  display: inline-block;
-  flex-shrink: 3;
-  width: 5.5em;
-  font-size: 1.45em;
-  word-wrap: break-word;
-  font-family: 'Big Shoulders Stencil Text', cursive;
+   color: black;
+   margin: 0;
+   padding: 0;
+   justify-content: center;
+   display: inline-block;
+   flex-shrink: 3;
+   width: 5.5em;
+   font-size: 1.45em;
+   word-wrap: break-word;
+   font-family: 'Big Shoulders Stencil Text', cursive;
 }
 .body-background {
-  background-color: black !important;
+   background-color: black !important;
 }
 .sticky {
-  /* position: -webkit-sticky; */
-  position: fixed;
-  top: -1px;
-  z-index: 1;
-  width: 100vw;
+   position: -webkit-sticky;
+   position: fixed;
+   top: 0px;
+   z-index: 1;
+   width: 100vw;
 }
 
 /* HOME PAGE */
 .home-page {
-  color: white;
+   color: white;
 }
 .overlay {
-  /* position: relative;
+   /* position: relative;
   top: -40px; */
 }
 .outline {
-  border-top: 0.5px solid white;
-  border-bottom: none;
-  padding: 25px 7px 20px 7px;
-  margin: 5px 7px 5px 7px;
+   border-top: 0.5px solid white;
+   border-bottom: none;
+   padding: 25px 7px 20px 7px;
+   margin: 5px 7px 5px 7px;
 }
 .preview-sec-header-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: nowrap;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: nowrap;
 }
 .react-spacing {
-  position: relative;
-  top: 35px;
+   /* position: relative;
+   top: 35px; */
 }
 .preview-sec-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  margin: auto;
-  padding: 0 3% 1.75% 3%;
-  width: 31%;
-  white-space: nowrap;
-  font-weight: 600 !important;
-  position: relative;
-  bottom: -2em;
-  background-color: black;
+   /* some of my latest work */
+   background-color: black;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1em;
+   font-weight: 600 !important;
+   margin: 1em;
+   /* padding: 0 3% 1.75% 3%; */
+
+   white-space: nowrap;
+   width: 100vw; /**/
 }
 .preview-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  position: relative;
-  margin-bottom: 1%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   position: relative;
+   margin-bottom: 1%;
 }
 .screen {
-  background-color: rgba(255, 255, 255, 0.829);
-  background-position: contain;
-  color: black;
-  display: flex;
-  justify-content: space-around;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  margin: 0 13% 0 13%;
-  width: 64%;
-  /* z-index: 2; */
-  align-items: flex-start;
-  text-align: justify;
-  padding-top: 7px;
-  transition: .5s; /*hover-effect */
+   background-color: rgba(255, 255, 255, 0.829);
+   background-position: contain;
+   color: black;
+   display: flex;
+
+   justify-content: center;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   margin: 0 5em 0 5em;
+   width: 0.64vw;
+   z-index: 2;
+   align-items: flex-start;
+   text-align: justify;
+   padding-top: 1em;
+   transition: 0.5s; /*hover-effect */
 }
 .screen::before {
-  transition: .5s;
-  transform: scale(.9);
-  background: #ff0000;
-  /* z-index: -1; */
+   transition: 0.5s;
+   transform: scale(0.9);
+   background: #ff0000;
+   /* z-index: -1; */
 }
 .screen:hover::before {
-  transform: scale(1.2);
-  box-shadow: 0 0 15px #ff0000;
+   transform: scale(1.2);
+   box-shadow: 0 0 15px #ff0000;
 }
 .screen:hover {
-  background-color: rgba(255, 255, 255, 0.897);
-  box-shadow: 0 0 30px #000000;
-  text-shadow: 0 0 3px #770000;
+   background-color: rgba(255, 255, 255, 0.897);
+   box-shadow: 0 0 30px #000000;
+   text-shadow: 0 0 3px #770000;
 }
 .thumbnail {
-  display: flex;
-  margin: auto;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
 }
 .feat-app::before {
-  transition: .5s;
-  transform: scale(.9);
-  background: #fff2a9;
+   transition: 0.5s;
+   transform: scale(0.9);
+   background: #fff2a9;
 }
 .feat-app:hover::before {
-  transform: scale(1.2);
-  box-shadow: 0 2 15px #fff2a9;
-}
+   transform: scale(1.2);
+   box-shadow: 0 2 15px #fff2a9;
+} /**/
 .feat-app:hover {
-  /* color: #00eeff; */
-  box-shadow: 0 0 10px #fff2a9;
-  text-shadow: 0 0 20px #fff2a9;
+   /* color: #00eeff; */
+   box-shadow: 0 0 10px #fff2a9;
+   text-shadow: 0 0 20px #fff2a9;
 }
 .feat-app,
 .feat-about {
-  border-radius: 5px;
-  border-width: 7px;
-  border-color: rgba(250, 250, 250, 0.863);
-  /* z-index: 1; */
-  margin-bottom: 5%;
+   border-radius: 5px;
+   border-width: 7px;
+   border-color: rgba(250, 250, 250, 0.863);
+   /* z-index: 1; */
+   margin-bottom: 5%;
 }
-.feat-about:hover {
-  box-shadow: none;
-}
+/* .feat-about:hover {
+   box-shadow: none;
+} */
 
 /* ABOUT PAGE */
-.about-page {
-  background-color: white;
-  color: black;
-  position: relative;
-  top: -41px;
+/* .about-page {
+   background-color: white;
+   color: black;
+   position: relative;
+   top: -41px;
 }
 .fade2 {
-  position: relative;
-  top: -42px;
-  width: 110vw;
-}
+   position: relative;
+   top: -42px;
+   width: 100vw;
+} */
 
 /* PORTFOLIO PAGE */
-.portfolio-page {
-  color: white;
+/* .portfolio-page {
+   color: white;
 }
 .padding {
-  padding: 0 10px 0 10px;
-  margin: auto;
-  border: none;
-  box-shadow: none;
+   padding: 0 10px 0 10px;
+   margin: auto;
+   border: none;
+   box-shadow: none;
 }
 .portfolio-sec {
-  position: static;
-}
+   position: static;
+} */
 
 /* CONTACT PAGE */
-.contact-page {
-  color: black;
-  background-color: white;
-  position: relative;
-  top: -3px;
+/* .contact-page {
+   color: black;
+   background-color: white;
+   position: relative;
+   top: -3px;
 }
 .position {
-  position: static;
-}
+   position: static;
+} */

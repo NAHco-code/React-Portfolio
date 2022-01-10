@@ -10,6 +10,8 @@ import linkedinIcon from '../../images/linkedin-white.PNG';
 import twitterIcon from '../../images/twitter-white.PNG';
 import resume from '../resume/kathryn-wilkinson.pdf';
 
+/* mobile dropdown menu */
+
 export default function Nav() {
    return (
       <div className="sticky">
