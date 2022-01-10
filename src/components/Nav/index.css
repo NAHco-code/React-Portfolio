@@ -20,18 +20,20 @@
    margin: auto;
    width: 100vw;
 }
-.nav-2 {
+#nav-2 {
    display: none;
    /* display: flex; */
-   flex-direction: column;
+   /* flex-direction: column; */
    justify-content: center;
+   /* position: absolute; */
    width: 100vw;
 }
-.nav-3 {
+#nav-3 {
    display: none;
    /* display: flex; */
-   flex-direction: column;
+   /* flex-direction: column; */
    justify-content: center;
+   /* position: absolute; */
    width: 100vw;
 }
 .home-icon {
@@ -39,6 +41,9 @@
    margin: auto;
    width: 3em;
 }
+.home-icon:hover {
+}
+
 .nav-links {
    color: white;
    display: flex;
@@ -50,6 +55,7 @@
 }
 .nav-icons {
    display: flex;
+   flex-direction: column;
    height: 1em;
    margin: auto;
 }

@@ -11,6 +11,19 @@ import twitterIcon from '../../images/twitter-white.PNG';
 import resume from '../resume/kathryn-wilkinson.pdf';
 
 /* mobile dropdown menu */
+/* need to put an event listener on the home icon to toggle the dropdown menu
+figure out syntax for this situation (i.e. export default function - how to write function
+    before page is rendered and call in react)
+    how to write event listener in react */
+function toggleMenu() {
+   let menu = document.getElementById('nav-2');
+   if (menu.style.display === 'flex') {
+      menu.style.display = 'none';
+   } else {
+      menu.style.display = 'flex';
+      menu.style.flexDirection = 'column';
+   }
+}
 
 export default function Nav() {
    return (
@@ -20,54 +33,54 @@ export default function Nav() {
                <a href="/portfolio-react/#/home">
                   <img alt="" src={homeIcon} className="home-icon" />
                </a>
-            </div>
-            <div className="title-bar-center nav-sec nav-2">
-               <a href="/portfolio-react/#/about" className="nav-links">
-                  about
-               </a>
-               <a href="/portfolio-react/#/portfolio" className="nav-links">
-                  portfolio
-               </a>
-               <a href={resume} download className="nav-links">
-                  resume
-               </a>
-               <a href="/portfolio-react/#/contact" className="nav-links">
-                  contact
-               </a>
-            </div>
-            <div className="title-bar-right nav-sec nav-3">
-               <a
-                  href="https://twitter.com/NAHco_code"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-icon-links"
-               >
-                  <img alt="" className="nav-icons" src={twitterIcon} />
-               </a>
-               <a
-                  href="https://www.linkedin.com/in/kwilkinsonxx/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-icon-links"
-               >
-                  <img alt="" className="nav-icons" src={linkedinIcon} />
-               </a>
-               <a
-                  href="https://github.com/NAHco-code"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-icon-links"
-               >
-                  <img alt="" className="nav-icons" src={githubIcon} />
-               </a>
-               <a
-                  href="https://www.instagram.com/nahco_code/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-icon-links"
-               >
-                  <img alt="" className="nav-icons" src={instaIcon} />
-               </a>
+               <div className="title-bar-center nav-sec" id="nav-2">
+                  <a href="/portfolio-react/#/about" className="nav-links">
+                     about
+                  </a>
+                  <a href="/portfolio-react/#/portfolio" className="nav-links">
+                     portfolio
+                  </a>
+                  <a href={resume} download className="nav-links">
+                     resume
+                  </a>
+                  <a href="/portfolio-react/#/contact" className="nav-links">
+                     contact
+                  </a>
+               </div>
+               <div className="title-bar-right nav-sec" id="nav-3">
+                  <a
+                     href="https://twitter.com/NAHco_code"
+                     target="_blank"
+                     rel="noreferrer"
+                     className="nav-icon-links"
+                  >
+                     <img alt="" className="nav-icons" src={twitterIcon} />
+                  </a>
+                  <a
+                     href="https://www.linkedin.com/in/kwilkinsonxx/"
+                     target="_blank"
+                     rel="noreferrer"
+                     className="nav-icon-links"
+                  >
+                     <img alt="" className="nav-icons" src={linkedinIcon} />
+                  </a>
+                  <a
+                     href="https://github.com/NAHco-code"
+                     target="_blank"
+                     rel="noreferrer"
+                     className="nav-icon-links"
+                  >
+                     <img alt="" className="nav-icons" src={githubIcon} />
+                  </a>
+                  <a
+                     href="https://www.instagram.com/nahco_code/"
+                     target="_blank"
+                     rel="noreferrer"
+                     className="nav-icon-links"
+                  >
+                     <img alt="" className="nav-icons" src={instaIcon} />
+                  </a>
+               </div>
             </div>
          </div>
       </div>
