@@ -1,9 +1,10 @@
+import './style.css';
 import React from 'react';
-import Header from '../components/Header';
-import covidPreview from '../images/covid-woke-landing.png';
-import directoryPreview from '../images/employee-directory.PNG';
-import reviewPreview from '../images/selected+associated-reviews.PNG';
-import fade from '../images/black-white-fade-WHITE.PNG';
+import Header from '../../components/Header';
+import covidPreview from '../../images/covid-woke-landing.png';
+import directoryPreview from '../../images/employee-directory.PNG';
+import reviewPreview from '../../images/selected+associated-reviews.PNG';
+import fade from '../../images/black-white-fade-WHITE.PNG';
 
 export default function Home () {
     return (

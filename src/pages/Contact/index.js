@@ -1,7 +1,8 @@
+import './style.css';
 import React from 'react';
-import ContactForm from '../components/ContactForm';
-import ContactLinks from '../components/ContactLinks';
-import ContactVector from '../images/baby-vector.jpg'
+import ContactForm from '../../components/ContactForm';
+import ContactLinks from '../../components/ContactLinks';
+import ContactVector from '../../images/baby-vector.jpg'
 
 
 export default function Contact () {

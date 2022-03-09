@@ -1,7 +1,8 @@
+import './style.css';
 import React from 'react';
-import PortfolioCard from '../components/PortfolioCard';
-import projects from '../data/projects.json';
-import fade3 from '../images/black-white-fade-WHITE.PNG';
+import PortfolioCard from '../../components/PortfolioCard';
+import projects from '../../data/projects.json';
+import fade3 from '../../images/black-white-fade-WHITE.PNG';
 
 export default function Portfolio () {
     return (
@@ -30,4 +31,3 @@ export default function Portfolio () {
         </div>
     );
 }
-//map through projects and return portfoliocard for each project

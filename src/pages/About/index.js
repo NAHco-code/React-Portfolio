@@ -1,11 +1,12 @@
+import './style.css';
 import React from 'react';
-import about1 from '../images/wedding3.jpg';
-import about2 from '../images/content-img-women-family.jpg';
-import about3 from '../images/portfolio2resized.jpg';
-import about4 from '../images/portfolio-art-soul-dust.jpg';
-import about5 from '../images/portfolio-art-devour.jpg';
-import about6 from '../images/d-n-me-vector.jpg';
-import fade2 from '../images/white-black-fade.PNG';
+import about1 from '../../images/wedding3.jpg';
+import about2 from '../../images/content-img-women-family.jpg';
+import about3 from '../../images/portfolio2resized.jpg';
+import about4 from '../../images/portfolio-art-soul-dust.jpg';
+import about5 from '../../images/portfolio-art-devour.jpg';
+import about6 from '../../images/d-n-me-vector.jpg';
+import fade2 from '../../images/white-black-fade.PNG';
 
 export default function About () {
     return (

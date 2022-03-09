@@ -1,5 +1,5 @@
 import './App.css';
-import './background-img.css';
+// import './background-img.css';
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-        <Router basename='portfolio-react'>
+        <Router basename='react-portfolio'>
           <Switch>
             <Route exact path="/">
               <Home />
