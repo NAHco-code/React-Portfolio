@@ -53,10 +53,10 @@ span {
 .home-page {
   color: white;
 }
-.overlay {
-  /* position: relative;
-  top: -40px; */
-}
+/* .overlay {
+  position: relative;
+  top: -40px;
+} */
 .line {
   background-color: white;
   width: 100%;
