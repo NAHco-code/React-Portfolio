@@ -4,10 +4,8 @@ import React from 'react';
 import './index.css';
 // import { Link } from 'react-router-dom';
 import homeIcon from '../../images/right-arrow-round.png';
-import instaIcon from '../../images/insta-white.PNG';
 import githubIcon from '../../images/github-white-blk-outline.PNG';
 import linkedinIcon from '../../images/linkedin-white.PNG';
-import twitterIcon from '../../images/twitter-white.PNG';
 import resume from '../resume/kathryn-wilkinson.pdf';
 
 export default function Nav() {
@@ -15,7 +13,7 @@ export default function Nav() {
       <div className="sticky">
          <div className="title-bar nav">
             <div className="title-bar-left nav-sec nav-1">
-               <a href="/react-portfolio/#/home">
+               <a id="home-link" href="/react-portfolio/#/home">
                   <img alt="" src={homeIcon} className="home-icon" />
                </a>
             </div>
@@ -33,15 +31,9 @@ export default function Nav() {
                   contact
                </a>
             </div>
+            <div class="nav-divider"></div>
             <div className="title-bar-right nav-sec nav-3">
-               <a
-                  href="https://twitter.com/NAHco_code"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-icon-links"
-               >
-                  <img alt="" className="nav-icons" src={twitterIcon} />
-               </a>
+
                <a
                   href="https://www.linkedin.com/in/kwilkinsonxx/"
                   target="_blank"
@@ -58,14 +50,7 @@ export default function Nav() {
                >
                   <img alt="" className="nav-icons" src={githubIcon} />
                </a>
-               <a
-                  href="https://www.instagram.com/nahco_code/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-icon-links"
-               >
-                  <img alt="" className="nav-icons" src={instaIcon} />
-               </a>
+
             </div>
          </div>
       </div>
